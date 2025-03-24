@@ -4,14 +4,14 @@ import statsmodels.api as sm
 import matplotlib.pyplot as plt
 
 # 加载数据集
-msft_data_df = pd.read_csv('1.7_MSFT_data.csv', skiprows=2)
-aapl_data_df = pd.read_csv('1.7_AAPL_data.csv', skiprows=2)
-googl_data_df = pd.read_csv('1.7_GOOGL_data.csv', skiprows=2)
-market_data_df = pd.read_csv('1.7_market_data.csv', skiprows=2)
-risk_free_rate_df = pd.read_csv('1.7_risk_free_rate.csv')
-unemployment_rate_df = pd.read_csv('1.7_unemployment_rate.csv')
-inflation_rate_df = pd.read_csv('1.7_inflation_rate.csv')
-gdp_data_df = pd.read_csv('1.7_gdp_data.csv')
+msft_data_df = pd.read_csv('1.6_MSFT_data.csv', skiprows=2)
+aapl_data_df = pd.read_csv('1.6_AAPL_data.csv', skiprows=2)
+googl_data_df = pd.read_csv('1.6_GOOGL_data.csv', skiprows=2)
+market_data_df = pd.read_csv('1.6_market_data.csv', skiprows=2)
+risk_free_rate_df = pd.read_csv('1.6_risk_free_rate.csv')
+unemployment_rate_df = pd.read_csv('1.6_unemployment_rate.csv')
+inflation_rate_df = pd.read_csv('1.6_inflation_rate.csv')
+gdp_data_df = pd.read_csv('1.6_gdp_data.csv')
 
 # 统一列名
 column_names = ["Date", "Price", "Close", "High", "Low", "Open"]  # 移除 'Volume' 列名
